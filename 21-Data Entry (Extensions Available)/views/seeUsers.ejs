@@ -1,0 +1,22 @@
+<%- include("partials/header"); %>
+<div class="jumbotron centeredNormal">
+  <div class="container">
+    <h1 class="display-3">Confirm</h1>
+    <hr>
+    <div class="row">
+      <% members.forEach(function(member){ %>
+        <div class="col-md-4">
+          <div class="card">
+            <h5 class="card-title"><%= member.fName %></h5>
+            <h6 class="card-subtitle mb-2 text-muted"><%= member.lName %></h6>
+            <hr>
+            <p class="card-text"><%= member.email %></p>
+          </div>
+        </div>
+      <% }); %>
+    </div>
+    <a class="btn btn-light btn-lg" href="/" role="button">Back</a>
+
+  </div>
+</div>
+<%- include('partials/footer'); %>

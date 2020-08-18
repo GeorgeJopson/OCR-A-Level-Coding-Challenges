@@ -1,0 +1,18 @@
+<%- include("partials/header"); %>
+<div class="jumbotron centeredNormal">
+  <div class="container">
+    <h1 class="display-3">Confirm</h1>
+    <hr>
+    <p><%= fName %></p>
+    <p><%= lName %></p>
+    <p><%= email %></p>
+    <form action="/confirm" method="post">
+      <input type="hidden" name="fName" value="<%= fName %>">
+      <input type="hidden" name="lName" value="<%= lName %>">
+      <input type="hidden" name="email" value="<%= email %>">
+      <a class="btn btn-light btn-lg" href="/" role="button">Back</a>
+      <button class="btn btn-dark btn-lg" role="submit">Confirm Details</button>
+    </form>
+  </div>
+</div>
+<%- include('partials/footer'); %>

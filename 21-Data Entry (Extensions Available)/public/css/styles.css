@@ -1,0 +1,25 @@
+body {
+  background-color: #E8ECEF;
+}
+
+.centeredHome {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.centeredNormal{
+  padding-top: 100px;
+  text-align: center;
+}
+
+.card{
+  padding: 10px;
+  margin:10px;
+}
+.card hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.card:hover{
+  background-color:#f0f0f0 ;
+}
