@@ -1,0 +1,3 @@
+{'username': 'George', 'password': b'$2b$12$DAQOQk/9aGAg2ZBMXZpB4.rnI7X3RhipDBOQL3Zf0y28K9BJfdC2u', 'message': 'This is a message'}
+{'username': 'Person1', 'password': b'$2b$12$NCN.cQnKec7phuz0i8y90eZRnsV2miSCK.WlHBhDMvDS2vxIbx6XK', 'message': 'Message'}
+{'username': 'Person2', 'password': b'$2b$12$LY51aud6iweC.LlViNrvoegorN4YMXyQ1/mfpCkqDTYNi9sYlk05G', 'message': 'Oompa Loompa'}
