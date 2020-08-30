@@ -60,7 +60,7 @@ while(not isCompleted(sudoku)):
                     break
         
 
-
+## Debbuging Lines (useful for seeing what is going on in the programme and having it work step by step)
 ##        for line in sudoku:
 ##            print(line)
 ##        print("")
