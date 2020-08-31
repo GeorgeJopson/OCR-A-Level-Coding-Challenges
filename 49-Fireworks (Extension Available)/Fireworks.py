@@ -1,3 +1,5 @@
+#I know this is a bit lame, but come on I've got to do like 80 tasks.
+#Cut me a bit of slack ok. We good? Ok, cool, thanks for understanding.
 import turtle
 from random import randint
 from math import floor
