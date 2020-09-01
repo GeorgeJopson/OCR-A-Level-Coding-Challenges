@@ -1,0 +1,22 @@
+.container{
+  text-align: center;
+}
+.text{
+  color: white;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+.top{
+  left:0;
+  right: 0;
+  top: -15px;
+}
+.bottom{
+  left:0;
+  right: 0;
+  top: 305px;
+}
