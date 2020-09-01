@@ -1,10 +1,10 @@
 alphabet=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
 def encodeOrDecode(letter,task):
-    index=alphabet.index(letter.lower())
     if(letter==' '):
         return ' '
     else:
+        index=alphabet.index(letter.lower())
         if(task=="e"):
             encodedIndex=index+key
         else:
